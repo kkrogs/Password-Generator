@@ -17,34 +17,10 @@ const numbers = ["0","1","2","3","4","5","6",
 
 const passwordChar = []; //creating an array but there is nothing in it yet. Once the user chooses, they all go into this array.
 
-//references the html
-
+//references the #generate html
 var generateBtn = document.querySelector("#generate");
 
-
-// GIVEN I need a new, secure password
-// WHEN I click the button to generate a password
-
-// THEN I am presented with a series of prompts for password criteria
-// WHEN prompted for password criteria
-// THEN I select which criteria to include in the password
-
-// WHEN prompted for the length of the password
-// THEN I choose a length of at least 8 characters and no more than 128 characters
-// WHEN asked for character types to include in the password
-// THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-// WHEN I answer each prompt
-// THEN my input should be validated and at least one character type should be selected
-// WHEN all prompts are answered
-// THEN a password is generated that matches the selected criteria
-// WHEN the password is generated
-// THEN the password is either displayed in an alert or written to the page
-
-// GIVEN I need a new, secure password
-// WHEN I click the button to generate a password
-
-//prompts use for number of characters they would like to use
-
+//prompts user for number of characters they would like to use
 function generatePassword() {
 var numOfChars = prompt("How many characters in your password would you like to use? It can be between 8 and 128 characters.");
 console.log(numOfChars);  
