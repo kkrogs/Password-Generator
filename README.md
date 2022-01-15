@@ -17,3 +17,14 @@ After being asked a series of confirmation questions, the password generator wil
 
 ![image](https://user-images.githubusercontent.com/95041311/149601659-a97f600f-9666-4a9d-8868-75797345fd11.png)
 
+On the flipside, should you choose to run the password generator again and answer a number outside of the given password character parameters, less than 8 or more than 128, to the initial question of "How many characters in your password would you like to use? It can be between 8 and 128 characters." the program will alert "Please choose greater than 8 characters and less than 128 characters!" such as the photo shown below. After pressing "ok" you will be prompted the same question.
+
+![image](https://user-images.githubusercontent.com/95041311/149601839-fb49547f-0bb7-4eab-9122-458fbd8b7589.png)
+
+If you choose 'cancel' to all of the following confirmational questions, you will be alerted with "You have to choose at least one!"
+
+![image](https://user-images.githubusercontent.com/95041311/149601929-d601c4da-b242-4608-9528-0edd997d33aa.png)
+
+Thank you for reading and enjoy my password generator program!
+
+Kourtney Krogman
